@@ -354,9 +354,7 @@ article {
             display: none;
         }
 
-        #main {
-            margin-top: 12px;
-        }
+
     }
 
 @media (max-width:767px) {
