@@ -124,10 +124,16 @@ article figure {
 }
 
 /* Заголовище */ 
-.h1 {
+.h1-desctop {
     font-size: 140px;
     line-height: 140px;
     margin-left:-8px
+
+}
+
+.h1-mobile {
+    display: none;
+
 }
 
 /* Отступ снизу: отталкивает вниз */ 
@@ -337,10 +343,19 @@ article {
 
 /* На мобильных */
 @media (max-width: 440px) {
-        .h1 {
-            font-size: 52px;
-            line-height: 72px;
-            margin:10px 0 10px -4px
+       .h1-mobile {
+            display: inline;
+            font-size: 72px;
+            line-height: 90px;
+            margin:10px 0px 10px 2px;
+        }
+
+        .h1-desctop {
+            display: none;
+        }
+
+        #main {
+            margin-top: 12px;
         }
     }
 
