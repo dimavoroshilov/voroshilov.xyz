@@ -123,6 +123,12 @@ article figure {
     max-width: 1210px;
 }
 
+/* Заголовище */ 
+.h1 {
+    font-size: 140px;
+    line-height: 140px;
+    margin-left:-8px
+}
 
 /* Отступ снизу: отталкивает вниз */ 
 .header {
@@ -159,7 +165,7 @@ article figure {
 
 /* Отступ от заголовка Проекты */  
 #title {
-  margin-bottom: 2.5rem;
+  margin-top: -1rem;
 }
 
 
@@ -330,6 +336,14 @@ article {
 
 
 /* На мобильных */
+@media (max-width: 440px) {
+        .h1 {
+            font-size: 52px;
+            line-height: 72px;
+            margin:10px 0 10px -4px
+        }
+    }
+
 @media (max-width:767px) {
  
     /* Все картинки на всю ширину экран. От края до края*/
