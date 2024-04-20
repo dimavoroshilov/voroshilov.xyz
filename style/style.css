@@ -345,9 +345,9 @@ article {
 @media (max-width: 440px) {
        .h1-mobile {
             display: inline;
-            font-size: 72px;
+            font-size: 60px;
             line-height: 90px;
-            margin:10px 0px 10px 2px;
+            margin:10px 0px 10px -2px;
         }
 
         .h1-desctop {
